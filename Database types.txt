@@ -1,0 +1,28 @@
+
+
+A RDBMS (Relational database management systems) is ACID compliant meaning that it has the following properties:
+
+-Atomicity, meaning that a transaction with the database will happen in its entirity or not at all.
+-Consistency, meaning that a transaction must follow the rules of the database.
+-Isolation, meaning that the database can handle multiple concurrent processes without them interfering with eachother.
+-Durabillity, meaning data is saved after each completed transaction.
+
+6 examples of RDBMS:
+-MySQL
+-PostgreSQL
+-Microsoft SQL Server
+-Oracle Database
+-MariaDB
+-SQLite
+
+
+Other types of databases:
+
+- Key-value databases store data in the RAM and the access is therefor extremely fast. 
+The trade off is the limited amount of space. Examples: Redis, Memcached.
+- Document databases store and queries data as JSON-like documents to make it easier
+for developers to interact with the database using the same format as they do in their application code. Example: Mongo DB.
+-Columnar databases store data in columns as opposed to rows. Example: Amazon redshift.
+-Graph databases are useful for heavily interconnected data. Example: Neo4j.
+
+
