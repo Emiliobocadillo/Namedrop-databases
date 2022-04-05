@@ -22,7 +22,7 @@ Other types of databases:
 The trade off is the limited amount of space. Examples: Redis, Memcached.
 - Document databases store and queries data as JSON-like documents to make it easier
 for developers to interact with the database using the same format as they do in their application code. Example: Mongo DB.
--Columnar databases store data in columns as opposed to rows. Example: Amazon redshift.
+-Columnar databases store data in columns as opposed to rows. Columnar databases can be relational. Example: Amazon redshift. 
 -Graph databases are useful for heavily interconnected data. Example: Neo4j.
 
 
